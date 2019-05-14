@@ -3,6 +3,7 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 @import url('components/nav.scss');
 @import url('components/cards.scss');
+@import url('components/icons.scss');
 
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -23,6 +24,12 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Roboto Slab", serif;
   font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 36px;
 }
 
 h2 {
@@ -34,4 +41,10 @@ p {
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
   font-weight: 300;
+}
+
+img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
 }
